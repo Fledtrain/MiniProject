@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--Beginning of Main Page  -->
@@ -19,16 +19,19 @@
         </ul>
       </nav>
       <header>
-        <div>
-          <h1>Best place to learn Frontend</h1>
-          <p>
-            Go from being an absolute beginner to pro with a simplified process
-          </p>
-          <button>Start Now</button>
+        <div class="row">
+          <div>
+            <h1>Best place to learn Frontend</h1>
+            <p class="subheader">
+              Go from being an absolute beginner to pro with a simplified
+              process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img src="./CSS/Assets/laptop.png" alt="Home page image" />
+          </figure>
         </div>
-        <figure>
-          <img src="./CSS/Assets/laptop.png" alt="Home page image" />
-        </figure>
       </header>
     </section>
     <!--End of Main Page  -->
@@ -37,23 +40,25 @@
       <!--Beginning of About Section  -->
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            commodi voluptatibus unde ex accusantium sint repudiandae minima,
-            optio possimus cum facere quibusdam, doloremque voluptate at iste
-            dolore architecto. In, praesentium!
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            commodi voluptatibus unde ex accusantium sint repudiandae minima,
-            optio possimus cum facere quibusdam, doloremque voluptate at iste
-            dolore architecto. In, praesentium!
-          </p>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              commodi voluptatibus unde ex accusantium sint repudiandae minima,
+              optio possimus cum facere quibusdam, doloremque voluptate at iste
+              dolore architecto. In, praesentium!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              commodi voluptatibus unde ex accusantium sint repudiandae minima,
+              optio possimus cum facere quibusdam, doloremque voluptate at iste
+              dolore architecto. In, praesentium!
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="/CSS/Assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="/CSS/Assets/about.jpg" alt="" />
-        </figure>
       </section>
       <!--End of About Section  -->
 
